@@ -1,0 +1,28 @@
+/**
+ *
+ */
+class Book {
+    /**
+     * 
+     *
+     * @param {string} title - El título del libro.
+     * @param {string} author - El autor del libro.
+     */
+    constructor(title, author) {
+        this.title = title;
+        this.author = author;
+    }
+
+    /**
+     * Obtiene una descripción del libro.
+     *
+     * @returns {string} Una cadena formateada con el título y el autor del libro.
+     */
+    getDescription() {
+        return `Título: ${this.title}, Autor: ${this.author}`;
+    }
+}
+
+// Ejemplo de uso
+const book = new Book("Cien años de soledad", "Gabriel García Márquez");
+console.log(book.getDescription());

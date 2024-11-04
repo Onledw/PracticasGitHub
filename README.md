@@ -1,2 +1,0 @@
-# PracticasGitHub
-GitHub documento
